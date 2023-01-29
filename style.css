@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+nav a{
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a :hover{
+    opacity: 50%;
+
+}
+
+.nav-item:hover{
+    opacity: 50%;
+    color: cornflowerblue;
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-left: 3em;
+}
+
+section{
+    height: 100vh;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-title{
+    font-size: 3rem;
+    margin: 4em 4em;
+}
+
+span{
+    color: cornflowerblue;
+}
+
+#about{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2.5rem;
+}
+
+.row{
+    display: flex;
+    width: 80%;
+    margin: 2em 2em;
+}
+
+.column{
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.skills ul{
+    display: flex;
+}
+
+#projects{
+   height: 170vh;
+   max-height: fit-content;
+}
+
+button{
+    border-color: cornflowerblue;
+    background-color: white;
+    width: 7em;
+    height: 2em;
+    border-radius: 100px;
+    color: cornflowerblue;
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+#contact{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#contact h1{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2.5rem;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    opacity: 50%;
+
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+}
+
+.container h2{
+    font-size: 2rem;
+    margin: 1em 1em;
+}
